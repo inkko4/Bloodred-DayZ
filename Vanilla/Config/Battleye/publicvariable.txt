@@ -1,0 +1,35 @@
+//new
+5 !=(remExField|remExFP) !=(PVCDZ_obj_GutBody|drn_AskServerDynamicWeatherEventArgs|BIS_effects_gepv|dayzLoad|achievement|dayzFlies) !=PVDZ_(drg_(RaDrag|RaLW|RLact)|getTickTime|hlt_Bleed|obj_(Delete|Publish|RoadFlare|Destroy)|objgather_Delete|veh_S(ave|F)) !=PVDZ_(plr_(Death|Discorem|Login[12]|LoginRecord|Save)|Server(_changeOwner|_Simulation|StoreVar)|receiveVar|sec_atp) !=PVDZ_(send(|Unconscious)) !"PVAHR_" !="PVAH_AdminReq" !="PVAH_WriteLogReq" !="DZSQ_RepairQ" !="DZSQ_MedsQ" !="MCoords" !="Detain" !="VehSuv" !="VehOffroad" !="VehLada" !="VehHmmwv" !="VehHilux" !="VehAhx" !="VehUhih" !="VehMhj" !="Escort" !="VehUhih1" !="VehUhih2" !="clothesTaken" !="PVDZ_Server_LogIt" !="currentInvites" !="customkillMessage" !="PVDZ_playerMedicalSync" !="DayZ_SafeObjects" !="DZSQ_RaceQ" !="DZSQ_Build1Q" !="DZSQ_Build2Q" !="PVDZ_Server_processCode" !="PVDZ_Server_processSetAccessCode"  !"CD_Groups_Group_Check_Call" !"CD_Groups_Group_Create_Call" !"CD_Groups_Group_Reject_Call" !"CD_Groups_MakeLeader_Call" !"CD_Groups_Group_Invite_Call" !"CD_Groups_Group_Join_Call" !"CD_Groups_Group_Leave_Call" !"CD_Groups_Group_Check_Call" !="CustomMessage" !="CustomMessage2" !="MrkOpPV" !="PVCDZ_Loadout_Server" !="PVCDZ_Loadout_Client" !="snow_script" !="holiday_event" !="time_change" !="time_variable_holder" !="LottoReward_Temp" !="LottoReward_Log" !="LottoReward_Vehicle"
+5 "PVAHR_" !"PVAHR_0_"
+1="PVAH_AdminReq"
+1="PVAH_WriteLogReq"
+////////////////////////// Broadcast PV with EH
+1=PVDZ_drg_RaDrag
+//1=PVDZ_drg_RaLW
+//1=PVDZ_drg_RLact
+1=PVDZ_hlt_Bleed
+//1=PVDZ_obj_Fire // not in 178?
+//1=PVDZ_obj_RoadFlare
+
+////////////////////////// Unicast PV ->Server
+1=PVDZ_obj_Destroy
+1=PVDZ_obj_Delete
+1=PVDZ_obj_Publish
+1=PVDZ_plr_Death
+1=PVDZ_plr_Discorem
+//1=PVDZ_plr_Login1
+//1=PVDZ_plr_Login2
+1=PVDZ_plr_LoginRecord
+//1=PVDZ_plr_Save
+//1=PVDZ_sec_atp
+1=PVDZ_send
+1=PVDZ_Server_changeOwner
+//1=PVDZ_Server_Simulation // very verbose
+//1=PVDZ_veh_Save // very verbose
+1=PVDZ_receiveVar 
+//1=PVDZ_serverStoreVar  // verbose
+1=PVDZ_veh_SF
+
+////////////////////////// BIS libs
+//1=remExField
+//1=remExFP
